@@ -17,27 +17,3 @@ sr.reveal('.leftcontact',{delay:300, origin:'left'});
 sr.reveal('.rightcontact',{delay:300, origin:'right'});
 sr.reveal('.endsection',{delay:300, origin:'top'});
 sr.reveal('.projects',{delay:300, origin:'top'});
-
-
-
-const swiper = new Swiper('.swiper', {
-    // Optional parameters
-    direction: 'horizontal',
-    loop: true,
-  
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-    },
-  
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
-  });
